@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
+/*adding line*/
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Nimble-ICE' })
